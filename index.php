@@ -18,48 +18,66 @@ require_once __DIR__ . "/classes/files.php";
     <meta content="True" name="HandheldFriendly">
     <meta id="viewport-tag" name="viewport" content="width=device-width, user-scalable=no,
     minimum-scale=1.0, maximum-scale=1.0, initial-scale=1, minimal-ui, shrink-to-fit=no">
-    <link rel="icon" type="image/png" href="/img/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#fff8f8">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/img/mstile.png">
-    <link rel="stylesheet" href="<?= Files::noCash('/style.css') ?>"
-    " type="text/css">
+    <link rel="stylesheet" href="/style.css?<?=date('U')?>">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/scripts.js?<?=date('U')?>"></script>
 
 </head>
 <body>
-<div class="container b1">
-    <nav>
-        <ul class="topmenu">
-            <li><a href="#" <b>Range Rover</b></a></li>
-            <li><a href="#" <b>Sport</b></a></li>
-            <li><a href="#" <b>Velar</b></a></li>
-            <li><a href="#" <b>Evoque</b></a></li>
-            <li><a href="#" <b>PHEV</b></a></li>
-        </ul>
-    </nav>
-    <nav>
-        <ul class="topmenu top-left-menu">
-            <li><a href="#" <b>Shop</b></a></li>
-            <li><a href="#" <b>Sign in</b></a></li>
-    </nav>
-    <div class="logo">
+<div class="#">
+    <div class="page-container b1">
+        <nav>
+            <ul class="topmenu">
+                <li><a href="#" <b>Range Rover</b></a></li>
+                <li><a href="#" <b>Sport</b></a></li>
+                <li><a href="#" <b>Velar</b></a></li>
+                <li><a href="#" <b>Evoque</b></a></li>
+                <li><a href="#" <b>PHEV</b></a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul class="topmenu top-left-menu">
+                <li><a href="#" <b>Shop</b></a></li>
+                <li><a href="#" <b>Sign in</b></a></li>
+        </nav>
+        <a class="logo" href="#">
+            <img src="/img/landrover1.png" alt="image">
+        </a>
+        <div class="title l1">Land Rover</div><br>
+        <div class="title l2">Range Rover Velar</div>
     </div>
-</div>
-<div class="container b2">
-</div>
-<div class="container b3">
-</div>
-<div class="container b5">
-</div>
-<div class="container b6">
-</div>
-<div class="container b7">
-</div>
-<div class="container b8">
-</div>
-<div class="container b9">
-</div>
-<div class="container b10">
+    <!--<div class="page-container b2">
+    </div>-->
+    <!--<div class="page-container info">
+    </div>-->
+    <div class="page-container b3">
+    </div>
+    <!--<div class="page-container info2">
+    </div>-->
+    <div class="page-container b5">
+    </div>
+    <!--<div class="page-container info2">
+    </div>-->
+    <div class="page-container b6">
+    </div>
+    <div class="page-container b7">
+    </div>
+    <div class="page-container b8">
+    </div>
+    <div class="page-container b9">
+    </div>
+    <div class="page-container b10">
+    </div>
 </div>
 </body>
 </html>
