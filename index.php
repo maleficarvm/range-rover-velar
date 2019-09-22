@@ -34,21 +34,23 @@ require_once __DIR__ . "/classes/files.php";
 
 </head>
 <body>
+
 <div class="#">
     <div class="page-container b1">
         <nav>
             <ul class="topmenu">
-                <li><a href="#" <b>Range Rover</b></a></li>
-                <li><a href="#" <b>Sport</b></a></li>
-                <li><a href="#" <b>Velar</b></a></li>
-                <li><a href="#" <b>Evoque</b></a></li>
-                <li><a href="#" <b>PHEV</b></a></li>
+                <li><a href="#"><b>Range Rover</b></a></li>
+                <li><a href="#"><b>Sport</b></a></li>
+                <li><a href="#"><b>Velar</b></a></li>
+                <li><a href="#"><b>Evoque</b></a></li>
+                <li><a href="#"><b>PHEV</b></a></li>
             </ul>
         </nav>
         <nav>
             <ul class="topmenu top-left-menu">
-                <li><a href="#" <b>Shop</b></a></li>
-                <li><a href="#" <b>Sign in</b></a></li>
+                <li><a href="#"><b>Shop</b></a></li>
+                <li><a href="#"><b>Sign in</b></a></li>
+                <li><a href="#" id="maskOpener"><b>X</b></a></li>
         </nav>
         <a class="logo" href="#">
             <img src="/img/landrover1.png" alt="image">
@@ -78,6 +80,19 @@ require_once __DIR__ . "/classes/files.php";
     </div>
     <div class="page-container b10">
     </div>
+</div>
+<div id="menuMask"></div>
+<div id="menu">
+    <ul>
+        <li><a href="#">Menu item</a></li>
+        <li><a href="#">Menu item</a></li>
+        <li><a href="#">Menu item</a></li>
+        <li><a href="#">Menu item</a></li>
+        <li><a href="#">Menu item</a></li>
+        <li><a href="#">Menu item</a></li>
+        <li><a href="#">Menu item</a></li>
+        <li><a href="#">Menu item</a></li>
+    </ul>
 </div>
 </body>
 </html>

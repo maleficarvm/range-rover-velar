@@ -14,6 +14,39 @@ body {
     background: #ffffff;
 }
 
+#menu{
+    display: none;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 101;
+    margin-left: 100%;
+}
+#menu > ul {
+    margin: 0;
+    margin-left: 0;
+    width: 300px;
+    background-color: white;
+    height: 100%;
+    color: black;
+}
+
+#menu > ul a {
+    color: black;
+}
+
+#menuMask{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 100;
+    left: 0;
+    top: 0;
+}
+
 .nav {
     overflow: hidden;
     width: 100%;
@@ -142,7 +175,8 @@ img.logo {
     background-image: url("/img/five.jpg");
 }
 
-.b6 {
+
+b6 {
     background-image: url("/img/six.jpg");
 }
 
