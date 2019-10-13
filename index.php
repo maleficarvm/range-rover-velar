@@ -35,7 +35,7 @@ require_once __DIR__ . "/classes/files.php";
 </head>
 <body>
 
-<div class="#">
+<div id="wrapper">
     <div class="page-container b1">
         <nav>
             <ul class="topmenu">
@@ -50,7 +50,7 @@ require_once __DIR__ . "/classes/files.php";
             <ul class="topmenu top-left-menu">
                 <li><a href="#"><b>Shop</b></a></li>
                 <li><a href="#"><b>Sign in</b></a></li>
-                <li><a href="#" id="maskOpener"><b>X</b></a></li>
+                <li><a href="#" id="maskOpener"><b>_</b></a></li>
         </nav>
         <a class="logo" href="#">
             <img src="/img/landrover1.png" alt="image">
@@ -81,6 +81,16 @@ require_once __DIR__ . "/classes/files.php";
     <div class="page-container b10">
     </div>
 </div>
+    <ul id="leftnav">
+        <li class="active"><a goto-screen="0" href="#"><span>NAME1</span></a></li>
+        <li><a goto-screen="1" href="#"><span>NAME2</span></a></li>
+        <li><a goto-screen="2" href="#"><span>NAME3</span></a></li>
+        <li><a goto-screen="3" href="#"><span>NAME4</span></a></li>
+        <li><a goto-screen="4" href="#"><span>NAME5</span></a></li>
+        <li><a goto-screen="5" href="#"><span>NAME6</span></a></li>
+        <li><a goto-screen="6" href="#"><span>NAME7</span></a></li>
+        <li><a goto-screen="7" href="#"><span>NAME8</span></a></li>
+    </ul>
 <div id="menuMask"></div>
 <div id="menu">
     <ul>
